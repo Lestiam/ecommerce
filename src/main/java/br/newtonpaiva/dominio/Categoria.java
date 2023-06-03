@@ -1,8 +1,9 @@
 package br.newtonpaiva.dominio;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Objects;
 
 @Entity //essa classe é uma classe que pode ser persistida (minha aplicação pode ser reiniciada todo dia 00:00, mas
